@@ -3,6 +3,16 @@
 
 
 
+#### 2020-4-26 更新
+
+1、修改软件名称以及作者信息
+
+2、添加css、js支持
+
+---
+
+### 以下内容为[QPPHTTPServer](https://github.com/TedQue/QPPHTTPServer.git)更新日志
+
 #### 2012-5-17 更新内容
 1.重新整理 FCGIResponder 的三个数据流的代码,现在的代码写得太恶心了.  
 2.添加全缓冲模式.  
