@@ -217,7 +217,7 @@ int HTTPServer::initListenSocket(const std::string& strIP, int nPort, SOCKET& hL
 	}
 	if( 0 != bind(hSock, (sockaddr *)&addr, sizeof(sockaddr_in)) )
 	{
-		LOGGER_CERROR(theLogger, _T("侦听套接字无法绑定端口:%d.\r\n"), nPort);
+		LOGGER_CERROR(theLogger, _T("侦听套接字无法绑定端口:%d.\r\n可能端口被占用，请释放端口后重试\r\n"), nPort);
 		closesocket(hSock);
 		return SE_BIND_FAILED;
 	}

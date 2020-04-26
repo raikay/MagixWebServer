@@ -108,7 +108,7 @@ std::string HTTPConfig::docRoot()
 	/*
 	* 默认值: 当前目录下 www 文件夹
 	*/
-	return "/";
+	return "./";
 
 }
 
@@ -216,7 +216,7 @@ bool HTTPConfig::autoRun()
 	/*
 	* 默认值: "no"
 	*/
-	return false;
+	return true;
 }
 
 bool HTTPConfig::setAutoRun(bool yes)

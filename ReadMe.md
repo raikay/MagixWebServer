@@ -20,6 +20,10 @@
 
 2、添加css、js支持
 
+3、启动后自动运行，修改为默认为true
+
+4、优化端口占用提示
+
 ---
 
 ### 以下内容为[QPPHTTPServer](https://github.com/TedQue/QPPHTTPServer.git)更新日志
