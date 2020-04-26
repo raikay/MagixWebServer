@@ -63,3 +63,8 @@ XmlDocument 在两处使用递归函数的地方使用栈和循环代替.
 #### 2012-4-10 更新内容
 FCGIResponder 中2个使用了大局部变量的函数 sendPostData() 直接使用发送缓冲 reserve(),   initFCGIEnv() 也如此,避免栈溢出.  
 
+
+
+### 鸣谢：
+
+本程序Fork自：[QPPHTTPServer](https://github.com/TedQue/QPPHTTPServer.git)
