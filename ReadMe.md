@@ -1,6 +1,17 @@
+一个简单的 web服务器 支持 http post/get请求、目录浏览等，支持 html 、图片、text 等文件 
+可以作为临时资源分享或者本地站html站点服务器.  
+1、免安装，仅一个exe，双击即可  
+2、可配置根目录，不配置默认是软件所在目录  
+**设置页面：**  
 
+![image-20200426143804099](https://i.loli.net/2020/04/26/rzuYSTsMHwL5va2.png)
+
+**软件主图：**   
 ![](https://i.loli.net/2020/04/26/X81vGRp5xNlYose.png)
 
+**隐藏工具栏：**  
+
+![image-20200426144002933](https://i.loli.net/2020/04/26/2IH8QusziBwhPDp.png)
 
 
 #### 2020-4-26 更新
