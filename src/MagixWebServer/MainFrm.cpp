@@ -75,6 +75,7 @@ CMainFrame::CMainFrame() : m_nWindowLogger(0), m_nFileLogger(0)
 
 	m_uTimer = 0;
 	InitializeCriticalSection(&m_cs);
+
 }
 
 CMainFrame::~CMainFrame()
@@ -271,6 +272,18 @@ void CMainFrame::OnStart()
 		CString strIPAddrStatus;
 		strIPAddrStatus.Format(_T("正在运行 %s:%d"), strIp.c_str(), theConf.port());
 		m_wndStatusBar.SetPaneText(0, strIPAddrStatus, TRUE);
+
+		/* 
+		//默认打开首页
+		const TCHAR szOperation[] = _T("open");
+		CString url;
+		url.Format(_T("http://localhost:%d/"),  theConf.port());
+		TCHAR szURL[200];
+		_tcscpy(szURL, url);
+
+		HINSTANCE hRslt = ShellExecute(NULL, szOperation,
+			szURL, NULL, NULL, SW_SHOWNORMAL);
+			*/
 	}
 }
 
