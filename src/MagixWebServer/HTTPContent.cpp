@@ -320,6 +320,10 @@ std::string HTTPContent::getContentTypeFromFileName(const char* pszFileName)
 		{
 			strType = "text/javascript";
 		}
+		else if (stricmp(szExt, "svg") == 0)
+		{
+			strType = "image/svg+xml";
+		}
 		else
 		{
 

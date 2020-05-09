@@ -586,7 +586,7 @@ std::string HTTPConfig::logFileName()
 	/*
 	* 默认开启屏幕日志
 	*/
-	return "log\\http.log";
+	return "./log/http.log";
 }
 
 bool HTTPConfig::setLogFileName(const std::string &fileName)

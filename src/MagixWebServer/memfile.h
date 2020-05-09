@@ -18,7 +18,7 @@ memfile.h
 模仿标准文件接口
 区别在于读写分别有独立的指针, read() 和 write() 交叉执行时,不需要使用 seek() 来移动.
 
-by 阙荣文 - Que's C++ Studio
+by raikay
 2010-12-16
 
 */

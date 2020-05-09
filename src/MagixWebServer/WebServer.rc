@@ -239,14 +239,14 @@ BEGIN
     BEGIN
         BLOCK "080403a8"
         BEGIN
-            VALUE "Comments", "MagixWebServer HTTP 服务器"
-            VALUE "CompanyName", "Que's C++ Studio"
-            VALUE "FileDescription", "MagixWebServer HTTP 服务器 by Que's C++ Studio"
+            VALUE "Comments", "MagixWebServer"
+            VALUE "CompanyName", "Raikay"
+            VALUE "FileDescription", "MagixWebServer-Http服务器"
             VALUE "FileVersion", "0.2.0.0"
             VALUE "InternalName", "MagixWebServer.exe"
-            VALUE "LegalCopyright", "Que's C++ Studio 保留所有权利。"
+            VALUE "LegalCopyright", "Raikay 保留所有权利。"
             VALUE "OriginalFilename", "MagixWebServer.exe"
-            VALUE "ProductName", "MagixWebServer HTTP 服务器"
+            VALUE "ProductName", "MagixWebServer"
             VALUE "ProductVersion", "0.2.0.0"
         END
     END
