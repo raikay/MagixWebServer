@@ -273,7 +273,7 @@ void CMainFrame::OnStart()
 		strIPAddrStatus.Format(_T("正在运行 %s:%d"), strIp.c_str(), theConf.port());
 		m_wndStatusBar.SetPaneText(0, strIPAddrStatus, TRUE);
 
-		/* 
+		
 		//默认打开首页
 		const TCHAR szOperation[] = _T("open");
 		CString url;
@@ -283,7 +283,7 @@ void CMainFrame::OnStart()
 
 		HINSTANCE hRslt = ShellExecute(NULL, szOperation,
 			szURL, NULL, NULL, SW_SHOWNORMAL);
-			*/
+			
 	}
 }
 
